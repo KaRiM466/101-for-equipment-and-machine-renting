@@ -1,0 +1,113 @@
+.contact-for-rent-slide {
+    background-image: url(../../Images/ContactForRent.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.contact-for-rent-info {
+    background-color: #e9edf0;
+    padding: 30px 70px 10px 70px;
+}
+
+.contact-for-rent-info-title {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.contact-for-rent-info-title::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    left: -25px;
+    opacity: 50%;
+}
+
+.contact-for-rent-info-title::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: black;
+    left: -30px;
+    top: -5px;
+}
+
+.contact-for-rent-info-desc {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.contact-for-rent-info-desc-details {
+    color: gray;
+}
+
+
+/**/
+
+.contact-for-rent-form {
+    margin: 50px 150px;
+    padding: 50px 20px 50px 50px;
+    background: transparent;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-for-rent-form label {
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: bold;
+}
+
+.contact-for-rent-form input:not(.checkbox),
+select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 40px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.checkbox {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.contact-for-rent-form textarea {
+    width: 97%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.contact-btn .btn {
+    padding: 10px 100px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid red;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.contact-btn .btn:hover {
+    background: transparent;
+    border: 1px solid red;
+}
+
+@media (max-width: 990px) {
+    .contact-for-rent-form {
+        margin: 50px 0;
+    }
+}

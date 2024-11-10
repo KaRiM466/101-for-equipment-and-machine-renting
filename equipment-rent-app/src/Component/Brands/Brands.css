@@ -1,0 +1,58 @@
+.marquee-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 100px;
+    /* Full width of the page */
+}
+
+.marquee {
+    overflow: hidden;
+    width: 100%;
+    /* Full width of the container */
+}
+
+.marquee-content {
+    display: flex;
+    /* Use flexbox for horizontal layout */
+    animation: marquee linear infinite;
+}
+
+.brand {
+    flex: 0 0 auto;
+    /* Prevent flex items from shrinking */
+    padding: 0 20px;
+    /* Space between images */
+}
+
+.brand img {
+    height: 80px;
+    /* Set a fixed height for images */
+    width: auto;
+    /* Maintain aspect ratio */
+}
+
+
+/* Marquee animation */
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+        /* Start from the right */
+    }
+    to {
+        transform: translateX(-100%);
+        /* Move to the left */
+    }
+}
+
+.control {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}

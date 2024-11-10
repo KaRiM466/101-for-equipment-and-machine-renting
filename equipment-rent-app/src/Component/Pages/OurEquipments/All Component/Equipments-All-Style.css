@@ -1,0 +1,234 @@
+/* SliderEquipments */
+
+.slider-img {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* equipments-info */
+
+.equipments-info {
+    margin-bottom: 100px;
+}
+
+.equipments-info-name {
+    color: #f81818;
+}
+
+.equipments-info-name-info {
+    margin-bottom: 50px;
+}
+
+.equipments-info-title {
+    color: #f81818;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 5px solid #000;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+.quipments-info-title-info {
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.equipments-info-details-image-img {
+    max-width: 100%;
+    height: 400px;
+    margin-left: 200px;
+}
+
+
+/* cards-info */
+
+.cards-info {
+    margin-bottom: 100px;
+}
+
+.cards-info-content {
+    text-align: center;
+    border: 1px solid #000;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.cards-info-content-title-icon {
+    font-size: 50px;
+    background: #f81818;
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.cards-info-content-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.cards-info-content-desc {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+/* cards-images */
+
+.cards-images {
+    margin-bottom: 100px;
+}
+
+.cards-images-image-img {
+    max-width: 100%;
+    height: 300px;
+    padding: 10px 0;
+}
+
+
+/* equipment-detailse */
+
+.equipment-detailse {
+    margin-bottom: 100px;
+}
+
+.equipment-detailse h1 {
+    color: #000;
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 700;
+    position: relative;
+}
+
+.equipment-detailse h1::before {
+    content: " ";
+    position: absolute;
+    bottom: -40px;
+    right: 35%;
+    width: 350px;
+    height: 5px;
+    background: #000;
+}
+
+.equipment-detailse h1 span {
+    color: #f81818;
+}
+
+.equipment-detailse a {
+    text-decoration: none;
+}
+
+.equipment-detailse-info-img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.equipment-detailse-info-title {
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.equipment-detailse-info-more {
+    background-color: #f81818;
+    padding: 7px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.load-more {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.load-more .more-btn {
+    background-color: #f81818;
+    padding: 10px 35px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+/* information-video */
+
+.information-video {
+    margin: 100px 0;
+}
+
+.information-video-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+/* Touch-us */
+
+.Touch-us {
+    margin: 100px 0;
+}
+
+.Touch-us .row {
+    background: #000;
+    padding: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Touch-us h1 {
+    color: white;
+}
+
+.touch-us-link-btn {
+    background-color: #f81818;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/**/
+
+@media (max-Width: 990px) {
+    .slider-img {
+        height: max-content;
+    }
+    .equipments-info-details-image-img {
+        margin: 0;
+    }
+    .Touch-us h1 {
+        margin-bottom: 50px;
+    }
+    .equipment-detailse-info-img {
+        margin-top: 50px;
+    }
+}

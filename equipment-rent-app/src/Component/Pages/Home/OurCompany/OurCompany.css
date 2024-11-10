@@ -1,0 +1,42 @@
+.our-company-home {
+    background-color: #000;
+}
+
+.our-company-home .row div {
+    margin: 50px 0;
+    color: white;
+}
+
+.our-company-home .row div i {
+    font-size: 80px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.our-company-home .row div i:hover {
+    color: #ed1d26;
+}
+
+
+/*Spider Lifts*/
+
+.spider-lefts {
+    margin: 100px 0;
+}
+
+.spider-lefts img {
+    max-width: 100%;
+}
+
+.spider-lefts h3 {
+    font-size: 50px;
+    color: #ed1d26;
+    margin-bottom: 50px;
+}
+
+.spider-lefts p {
+    margin-bottom: 30px;
+}
